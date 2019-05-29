@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Joe's webpage</title>
+    <style>
+        body{background: yellowgreen;
+             text-align:center
+        }
+
+        .profile {margin-bottom: 40px}
+
+        .profile-top {
+            min-height: 300px;
+            background: rgb(88, 91, 221) 
+        }
+        .profile-image {
+            margin-top:-100px;
+            height:300px;
+            width:250px;
+            border-radius: 150px
+            border: 8px solid #eee
+        }
+
+        .profile-body {
+            padding:50px;
+            text-align:center;
+            color:blue;
+            background: yellowgreen
+        }
+        
+        .btn {
+            padding:50px;
+            text-decoration: none;
+            border:0px;
+            color:#fff
+        }
+
+        .primary {
+            background:#337AB7; 
+        }
+        .warning { 
+            background: orange
+        }
+        .primary:hover,
+        .warning:hover {
+            opacity:0.7;
+        }
+
+         
+    </style>
+</head>
+<body>
+     <div class="profile">
+        <div class="profile-top"></div>
+          <img src="joe.jpg.JPG" class="profile-image">
+           <div class="profile-body">
+          <h2>Ntekim jotham Mevoghenero</h2>
+         <p><strong>First page</strong></p>
+        </div>
+     </div>
+    <h1><b>Hi World</b></h1>
+    <a  class="btn primary" href="about.html" role="button">About Me</a>
+    <button type="button" class="btn warning" onclick="sayHi()">Say hi!</button>
+    <script>
+        function sayHi() {
+           alert("I'm a Potential Developer!");
+        }
+    </script>
+</body>
+</html>

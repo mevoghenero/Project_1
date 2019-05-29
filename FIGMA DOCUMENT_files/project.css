@@ -1,0 +1,196 @@
+.section {
+         display: grid;
+         grid-template-rows: 100px 1830px 100px ;      
+}
+.head {
+         display: grid;
+         grid-template-columns: 50% 50%;
+         background-color: rgb(243, 238, 238);
+         color:black
+}
+.logo {
+         background-image: url(logo.jpg.png);
+         background-repeat: no-repeat;
+         margin-left: 20px;
+         margin-top: 10px;
+         width:300px;
+         height: 89px
+}
+.nav {
+         display:grid;
+         grid-template-columns: 70px 100px 110px 170px 0px 130px;
+}
+.link  {
+         color: black;
+         text-align:center;
+         text-decoration: none;
+         padding-top: 70px;
+}
+/*a {
+         border-right:1px solid rgb(14, 12, 12)
+}*/
+.us {
+         color: burlywood;
+         text-align: center;
+         padding-top: 60px
+}
+.content {
+          display:grid;
+          grid-template-rows: 200px 36px 300px 500px 400px 400px;
+          background-color: rgb(218, 218, 208);
+          background-size: cover
+
+}
+.aboutus {
+           background-image: url(aboutus.jpg.png);
+           background-size: cover;
+           background-color:rgb(41, 38, 38);
+           height: 200px;
+        }
+    h1 {
+           text-align: center;
+           padding-top: 70px;
+           color: white
+    }
+    .space {
+           background-color: darkgoldenrod
+    }
+    .history {
+            background-color:white;
+            text-align: center;
+            padding-top: 60px;
+            padding-left: 195px;
+            padding-right: 195px
+
+    }
+    .column {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            background-color: rgb(247, 243, 243);
+            
+    }
+.img {
+         background-image: url(image.jpg.png);
+         background-size: cover;
+         padding-top: 50px
+        }
+  .mission {
+         text-align: center;
+         padding-top: 100px;
+         padding-right:50px;
+         text-justify: auto
+         
+        }
+   .miss {
+         display:block;
+         padding-right: 102.8px;
+         padding-left: 90px
+   }
+.view {
+         color: goldenrod;
+         padding-right:600px;
+         text-decoration:none
+   }
+   .view:hover {
+          color: lightblue
+   }
+   .column-2 {
+         display:grid;
+         grid-template-columns: 50% 50%;
+         background-color: rgb(247, 243, 243);;
+         background-size: cover 
+   }     
+.image {
+        background-image: url(image-2.jpg.png);
+        background-size: cover;
+
+        
+}
+/*.row-2 {
+        display: grid;
+        grid-template-rows: 600px 600px;
+}*/
+.vis {
+       text-align:center;
+       padding-top:100px;
+       padding-left: 120px;
+       padding-right: 102px; 
+}
+h5 {
+       text-align: center;
+       font-weight: 150px;
+       font-size: 20px
+}
+.team {
+       display:grid;
+       grid-template-rows: 100px 200px;
+       background-color:rgb(247, 243, 243);
+       background-size: co  
+}
+.column-3 {
+       display: grid;
+       grid-template-columns: 200px 200px 200px 200px;
+       grid-column-gap: 20px;
+       position: relative;
+       left: 500px;
+       
+}
+.CEO {
+       display: grid;
+       grid-template-rows: 70px 15px 20px;
+       border:0.1px solid black;
+       text-align: center;
+
+}
+.developer {
+        display: grid;
+        grid-template-rows: 70px 15px 20px;
+        border:0.1px solid rgb(54, 50, 50);
+        text-align: center;
+        
+}
+.manager {
+         
+        display: grid;
+        grid-template-rows: 70px 15px 20px;
+        border: 0.1px solid  rgb(54, 50, 50);
+        text-align: center 
+}
+.designer {
+        display: grid;
+        grid-template-rows: 70px 15px 20px;
+        border: 0.1px solid  rgb(54, 50, 50);
+        text-align: center
+}
+.co {
+        position:relative;
+        left: 70px;
+        padding-top: 20px
+}
+.dope {
+         position: relative;
+         left: 70px;
+         padding-top: 20px 
+}
+.sing {
+         position: relative;
+         left: 70px;
+         padding-top: 20px;
+         border-radius: 100%
+}
+.claud {
+         position: relative;
+         left: 70px;
+         padding-top: 20px
+}
+.footer {
+         background-color: filter
+}
+.view-2 {
+         text-decoration: none;
+         color: goldenrod;
+         padding-right: 500px
+}
+:first-child h4 {
+         color: goldenrod
+}

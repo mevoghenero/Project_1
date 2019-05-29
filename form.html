@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .paragraph {
+            background-color:thistle; color:black; border:1px solid white; border-radius: 10px; text-align: center
+        }
+        .fill {
+           font-size: 20px; background-color:thistle; color:black; border:1px solid white; border-radius: 10px; text-align: center  
+        } 
+        .form_input{
+            padding:0 10px; margin: 20px; width: 40%; height:40px; border-radius: 5px; padding: 0 10px; border: 1px solid rgb(172, 172, 172) 
+        }
+        .submit {margin-left: 20px; padding:5px 20px; width:80px; height: 40px; background-color:rgb(0, 124, 226); color: white; border: none; border-radius: 5px;}
+    </style>
+</head>
+<body>
+         <h1>Registration Form</h1>
+
+       <hr>
+        <P class="paragraph"> Please fill this form.</P>
+        <form>
+           <input type="text" placeholder="Enter name" class="form_input">
+           <input type="text" placeholder="Enter age" class="form_input">
+           <input type="text" placeholder="Enter state" class="form_input">
+           <input type="text" placeholder="Enter username" class="form_input">
+           <input type="text" placeholder="Enter address" class="form_input">
+           <input type="password" placeholder="Enter password" class="form_input">
+           <input type="password" placeholder="Confirm password" class="form_input">
+           Gender:Male<input type="radio" name="gender"> Female<input type="radio" name="gender"> other<input type="radio" name="gender">
+           <button type="submit" class="submit">Submit</button>  
+       </form>
+       <p class="fill">Make sure to fill correctly</p>
+</body>
+</html>

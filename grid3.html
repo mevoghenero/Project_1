@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GRID</title>
+    <style>
+        .column {
+            display:grid;
+            grid-template-columns: 300px 500px;
+            /* background-size: cover; */
+            /* background-repeat: no-repeat */
+        }
+        .row {
+            display:grid;
+            grid-template-rows:70px 70px;
+        }
+        .grid  {
+              display: grid;
+              grid-template-rows: 30px 30px 30px 30px;
+              border:2px solid lightgrey;
+              width:270px;
+              background-color:lightgrey
+              
+        }
+        a {
+            text-decoration: none;
+            padding-top: 8px;
+            padding-left: 10px
+        } 
+       .bar{
+             display:grid;
+             grid-template-columns: 70px 70px 100px 150px 70px;
+             background-color: black;
+             height: 50px
+       }
+       .head {
+           display:grid;
+           grid-template-columns: 70px 70px 100px 150px 70px;
+           background-color: lightgray;
+           height: 50px;
+        
+       }
+       #home {
+            background-color: rgb(26, 82, 26);
+            color: white;
+            padding-left: 15px;
+            padding-top: 5px
+       }
+       #con {
+           background-color: rgb(66, 134, 218);
+           text-align: center;
+           color:white;
+           padding-top: 20px
+        }
+        #new {
+            text-align: center;
+            color:white;
+            padding-top: 15px;
+            background-color: black;
+        }
+        #old {
+            text-align: center;
+            color:white;
+            padding-top: 15px;
+            background-color: rgb(26, 82, 26) 
+        }
+        #abt {
+            color:black;
+            padding-left: 15px;
+            padding-top: 5px
+        }
+        #go {
+            text-align: center;
+            color:black;
+            padding-top: 15px
+
+        }
+    </style>
+</head>
+<body>
+   <div class="column">
+     <div class="grid">
+        <a id="home" href="#">HOME</a>
+        <a id="abt" href="#">NEWS</a>
+        <a id="abt" href="#">CONTACT</a>
+        <a id="abt" href="#">ABOUT</a>
+    </div>
+     <div class="row">
+     <div class="bar">
+         <a id="old" href="#">HOME</a>
+         <a id="new" href="#">NEWS</a>
+         <a id="new" href="#">CONTACT</a>
+         <a href="#"></a>
+         <a id="new" href="#">ABOUT</a>
+     </div>
+     <div class="head">
+         <a id="go" href="#">HOME</a>
+         <a id="go" href="#">NEWS</a>
+         <a id="con" href="#">CONTACT</a>
+         <a href="#"></a>
+         <a id="go" href="#">ABOUT</a>
+     </div>
+    </div>
+    </div>
+</body>
+</html>    
